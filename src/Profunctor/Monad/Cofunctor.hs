@@ -95,3 +95,4 @@ cofilter
   :: (Cofunctor p, First p ~ Kleisli m, Alternative m)
   => (x -> Bool) -> p x a -> p x a
 cofilter p = (=:) (\x -> guard (p x) $> x)
+

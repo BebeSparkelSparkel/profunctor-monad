@@ -18,6 +18,7 @@ library
   exposed-modules:
     Profunctor.Monad
     Profunctor.Monad.Cofunctor
+    Profunctor.Monad.Cotrans
     Profunctor.Monad.Core
     Profunctor.Monad.Combinators
     Profunctor.Monad.Lifts
